@@ -41,7 +41,8 @@ header h2{
 
 
 
-.btn-info {background-color: #2196F3;
+.btn-info {background-color:#2f14a7;#35434a;
+	color:white;
 	height:40px;
 	width:100px;} /* Blue */
 .btn-info:hover {background: #0b7dda;}
