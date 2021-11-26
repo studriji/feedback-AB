@@ -32,7 +32,7 @@ def predict():
 		if(np.argmax(sentiment) == 0):
 			print("negative")
 			#result = 'This is a negative feedback'
-			return render_template('result.html',result=type(feedback))
+			return render_template('result.html',result=feedback.shape)
 		elif(np.argmax(sentiment) == 1):
 			print("positive")
 			#result = 'This is a positive feedback'
